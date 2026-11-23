@@ -55,4 +55,5 @@ impl From<CurveError> for AmmError {
             CurveError::SlippageLimitExceeded => AmmError::SlippageExceeded,
         }
     }
+    
 }
