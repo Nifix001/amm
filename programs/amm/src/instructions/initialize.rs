@@ -65,5 +65,4 @@ impl<'info> Initialize<'info>{
             });
         Ok(())
     }
-    
 }
